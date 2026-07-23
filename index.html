@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Casque BT - Casque Bluetooth Premium | Paiement à la livraison</title>
+<meta name="description" content="Casque BT - Casque Bluetooth sans fil. Livraison standard 500 DA. Paiement à la livraison uniquement.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <span class="logo">🎧 Casque<span class="accent">BT</span></span>
+    <span class="header-badge">Paiement à la livraison</span>
+  </div>
+</header>
+
+<main>
+  <section class="product-section container">
+    <div class="product-media">
+      <div class="product-image">
+        <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" aria-label="Casque BT">
+          <circle cx="100" cy="100" r="95" fill="#eef2ff"/>
+          <path d="M60 95 a40 40 0 0 1 80 0 v45 a10 10 0 0 1 -10 10 h-6 a8 8 0 0 1 -8 -8 v-24 a8 8 0 0 1 8 -8 h6 v-15 a30 30 0 0 0 -60 0 v15 h6 a8 8 0 0 1 8 8 v24 a8 8 0 0 1 -8 8 h-6 a10 10 0 0 1 -10 -10 z" fill="#4338ca"/>
+          <circle cx="100" cy="100" r="6" fill="#22c55e"/>
+        </svg>
+      </div>
+    </div>
+
+    <div class="product-info">
+      <h1>Casque BT</h1>
+      <p class="subtitle">Casque Bluetooth sans fil — Son puissant, autonomie longue durée</p>
+
+      <div id="misdakia-widget-WI-KDXEEX"></div>
+
+      <div class="price-block">
+        <span class="price">3000 DA</span>
+        <span class="old-price">4500 DA</span>
+      </div>
+
+      <ul class="features">
+        <li>✔️ Bluetooth 5.0 — connexion stable et rapide</li>
+        <li>✔️ Autonomie jusqu'à 20 heures</li>
+        <li>✔️ Micro intégré pour les appels</li>
+        <li>✔️ Confort optimal, coussinets moelleux</li>
+        <li>✔️ Compatible tous smartphones</li>
+      </ul>
+
+      <div class="shipping-note">
+        🚚 Livraison standard : <strong>500 DA</strong><br>
+        💵 Paiement à la livraison (COD) uniquement
+      </div>
+
+      <a href="#commander" class="cta-button">Commander maintenant</a>
+    </div>
+  </section>
+
+  <section class="description-section container">
+    <h2>Description du produit</h2>
+    <p>
+      Le Casque BT vous offre une expérience audio immersive grâce à sa technologie Bluetooth 5.0
+      qui garantit une connexion stable et sans coupures. Profitez d'une autonomie longue durée,
+      d'un confort optimal pour un usage prolongé, et d'un micro intégré pour prendre vos appels
+      en toute simplicité. Léger, pliable et facile à transporter, il vous accompagne partout :
+      sport, travail, trajets ou détente.
+    </p>
+  </section>
+
+  <section class="order-section container" id="commander">
+    <h2>Passer commande</h2>
+    <p class="order-subtitle">Remplissez le formulaire ci-dessous. Vous paierez en espèces à la réception de votre colis.</p>
+
+    <div class="order-layout">
+      <form id="order-form" class="order-form" novalidate>
+        <label for="fullname">Nom complet *</label>
+        <input type="text" id="fullname" name="fullname" required placeholder="Ex: Ahmed Benali">
+
+        <label for="phone">Téléphone *</label>
+        <input type="tel" id="phone" name="phone" required placeholder="Ex: 0555 12 34 56">
+
+        <label for="wilaya">Wilaya / Ville *</label>
+        <input type="text" id="wilaya" name="wilaya" required placeholder="Ex: Alger">
+
+        <label for="address">Adresse complète *</label>
+        <textarea id="address" name="address" required placeholder="Rue, quartier, numéro..."></textarea>
+
+        <label for="quantity">Quantité</label>
+        <select id="quantity" name="quantity">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+
+        <label for="notes">Remarques (facultatif)</label>
+        <textarea id="notes" name="notes" placeholder="Instructions particulières..."></textarea>
+
+        <div class="payment-info">
+          <strong>Mode de paiement :</strong> Paiement à la livraison (COD) — vous payez en espèces au livreur.
+        </div>
+
+        <button type="submit" class="cta-button full-width">Confirmer la commande</button>
+      </form>
+
+      <aside class="order-summary" aria-live="polite">
+        <h3>Récapitulatif</h3>
+        <div class="summary-row">
+          <span>Casque BT x <span id="summary-qty">1</span></span>
+          <span id="summary-product-total">3000 DA</span>
+        </div>
+        <div class="summary-row">
+          <span>Livraison standard</span>
+          <span>500 DA</span>
+        </div>
+        <div class="summary-row total">
+          <span>Total à payer</span>
+          <span id="summary-total">3500 DA</span>
+        </div>
+        <p class="summary-note">💵 Montant payable en espèces à la livraison</p>
+      </aside>
+    </div>
+
+    <div id="order-confirmation" class="order-confirmation hidden">
+      <h3>✅ Commande confirmée !</h3>
+      <p>Merci <span id="conf-name"></span>, votre commande a bien été enregistrée.</p>
+      <p>Notre équipe vous contactera au <strong><span id="conf-phone"></span></strong> pour confirmer la livraison.</p>
+      <p><strong>Total à payer à la livraison : <span id="conf-total"></span></strong></p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Casque BT. Tous droits réservés.</p>
+  </div>
+</footer>
+
+<script>
+  window.MISDAKIA_WIDGETS = (window.MISDAKIA_WIDGETS || []).concat([{
+  "ref": "WI-KDXEEX",
+  "settings": {
+    "mode": "full",
+    "theme": "light",
+    "fontFamily": "system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans",
+    "defaultRating": null,
+    "ctaUrl": "https://misdakia-staging.t4startups.com/company-reviews/ST-DZYOIEZP/zakaria-store"
+  }
+}]);
+</script>
+<script src="https://misdakia-staging.t4startups.com/widget-script.js?v=mofy1325" async></script>
+
+<script src="script.js"></script>
+</body>
+</html>
