@@ -1,0 +1,47 @@
+<svg viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="safeTitle">
+<title id="safeTitle">قارن طريقتك الحالية</title>
+<rect width="600" height="600" fill="#f5f8ff"/>
+<text x="300" y="60" text-anchor="middle" font-family="Tajawal, Arial, sans-serif" font-size="26" font-weight="800" fill="#0a1f44">قارن طريقتك الحالية</text>
+
+<g font-family="Tajawal, Arial, sans-serif">
+  <g transform="translate(50,100)">
+    <rect width="230" height="150" rx="16" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+    <circle cx="205" cy="30" r="16" fill="#fee2e2"/>
+    <text x="205" y="36" text-anchor="middle" font-size="16" fill="#dc2626">✕</text>
+    <text x="115" y="70" text-anchor="middle" font-size="18" fill="#0a1f44">الإصبع</text>
+    <text x="115" y="98" text-anchor="middle" font-size="13" fill="#64748b">يدفع الوسخ لداخل</text>
+  </g>
+
+  <g transform="translate(320,100)">
+    <rect width="230" height="150" rx="16" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+    <circle cx="205" cy="30" r="16" fill="#fee2e2"/>
+    <text x="205" y="36" text-anchor="middle" font-size="16" fill="#dc2626">✕</text>
+    <text x="115" y="70" text-anchor="middle" font-size="18" fill="#0a1f44">العيدان القطنية</text>
+    <text x="115" y="98" text-anchor="middle" font-size="13" fill="#64748b">صعيبة التحكم فيها</text>
+  </g>
+
+  <g transform="translate(50,270)">
+    <rect width="230" height="150" rx="16" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+    <circle cx="205" cy="30" r="16" fill="#fee2e2"/>
+    <text x="205" y="36" text-anchor="middle" font-size="16" fill="#dc2626">✕</text>
+    <text x="115" y="70" text-anchor="middle" font-size="18" fill="#0a1f44">أدوات الغسل اليدوية</text>
+    <text x="115" y="98" text-anchor="middle" font-size="13" fill="#64748b">ضغط ماء ضعيف</text>
+  </g>
+
+  <g transform="translate(320,270)">
+    <rect width="230" height="150" rx="16" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+    <circle cx="205" cy="30" r="16" fill="#fee2e2"/>
+    <text x="205" y="36" text-anchor="middle" font-size="16" fill="#dc2626">✕</text>
+    <text x="115" y="70" text-anchor="middle" font-size="18" fill="#0a1f44">أنابيب الغسل الطويلة</text>
+    <text x="115" y="98" text-anchor="middle" font-size="13" fill="#64748b">استعمال معقد</text>
+  </g>
+
+  <g transform="translate(150,450)">
+    <rect width="300" height="120" rx="18" fill="#0a1f44"/>
+    <circle cx="270" cy="24" r="18" fill="#22c55e"/>
+    <text x="270" y="31" text-anchor="middle" font-size="18" fill="#fff">✓</text>
+    <text x="150" y="60" text-anchor="middle" font-size="20" font-weight="700" fill="#fff">E80</text>
+    <text x="150" y="90" text-anchor="middle" font-size="14" fill="#cfe0ff">غسل بالماء، بتحكم فالضغط</text>
+  </g>
+</g>
+</svg>
