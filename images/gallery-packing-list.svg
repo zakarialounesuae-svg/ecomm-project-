@@ -1,0 +1,61 @@
+<svg viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="packTitle">
+<title id="packTitle">محتوى العلبة</title>
+<defs>
+  <linearGradient id="pbg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#0a1f44"/>
+    <stop offset="100%" stop-color="#123a8f"/>
+  </linearGradient>
+</defs>
+<rect width="600" height="600" fill="url(#pbg)"/>
+<text x="300" y="70" text-anchor="middle" font-family="Tajawal, Arial, sans-serif" font-size="30" font-weight="800" fill="#ffffff">محتوى العلبة</text>
+<rect x="60" y="100" width="480" height="2" fill="#5b8bff" opacity="0.5"/>
+
+<g font-family="Tajawal, Arial, sans-serif" font-size="18" fill="#ffffff">
+  <g transform="translate(60,130)">
+    <circle cx="16" cy="10" r="16" fill="#2f6dfb"/>
+    <text x="16" y="16" text-anchor="middle" font-size="14" fill="#fff">1</text>
+    <text x="46" y="16">جهاز التنظيف E80</text>
+  </g>
+  <g transform="translate(60,178)">
+    <circle cx="16" cy="10" r="16" fill="#2f6dfb"/>
+    <text x="16" y="16" text-anchor="middle" font-size="14" fill="#fff">2</text>
+    <text x="46" y="16">وعاء تجميع الماء المدرّج</text>
+  </g>
+  <g transform="translate(60,226)">
+    <circle cx="16" cy="10" r="16" fill="#2f6dfb"/>
+    <text x="16" y="16" text-anchor="middle" font-size="14" fill="#fff">3</text>
+    <text x="46" y="16">4 أطراف بفتحة وحدة</text>
+  </g>
+  <g transform="translate(60,274)">
+    <circle cx="16" cy="10" r="16" fill="#2f6dfb"/>
+    <text x="16" y="16" text-anchor="middle" font-size="14" fill="#fff">4</text>
+    <text x="46" y="16">4 أطراف بـ 3 فتحات</text>
+  </g>
+  <g transform="translate(60,322)">
+    <circle cx="16" cy="10" r="16" fill="#2f6dfb"/>
+    <text x="16" y="16" text-anchor="middle" font-size="14" fill="#fff">5</text>
+    <text x="46" y="16">4 أطراف بـ 5 فتحات</text>
+  </g>
+  <g transform="translate(60,370)">
+    <circle cx="16" cy="10" r="16" fill="#2f6dfb"/>
+    <text x="16" y="16" text-anchor="middle" font-size="14" fill="#fff">6</text>
+    <text x="46" y="16">كابل شحن Type-C</text>
+  </g>
+  <g transform="translate(60,418)">
+    <circle cx="16" cy="10" r="16" fill="#2f6dfb"/>
+    <text x="16" y="16" text-anchor="middle" font-size="14" fill="#fff">7</text>
+    <text x="46" y="16">دليل الاستعمال</text>
+  </g>
+  <g transform="translate(60,466)">
+    <circle cx="16" cy="10" r="16" fill="#2f6dfb"/>
+    <text x="16" y="16" text-anchor="middle" font-size="14" fill="#fff">8</text>
+    <text x="46" y="16">علبة أنيقة للتخزين</text>
+  </g>
+</g>
+
+<g transform="translate(430,290)" opacity="0.95">
+  <rect x="-70" y="-140" width="140" height="200" rx="18" fill="#ffffff" opacity="0.08"/>
+  <path d="M-20 -100 h40 a10 10 0 0 1 10 10 v90 a30 30 0 0 1 -30 30 a30 30 0 0 1 -30 -30 v-90 a10 10 0 0 1 10 -10 z" fill="#eaf1ff"/>
+  <circle cx="0" cy="-70" r="10" fill="none" stroke="#2f6dfb" stroke-width="4"/>
+</g>
+</svg>
